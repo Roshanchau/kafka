@@ -11,7 +11,7 @@ consumer.connect();
 
 consumer
   .on('ready', function() {
-    consumer.subscribe(['customer-created']);
+    consumer.subscribe(['topic']);
 
     // Consume from the librdtesting-01 topic. This is what determines
     // the mode we are running in. By not specifying a callback (or specifying
