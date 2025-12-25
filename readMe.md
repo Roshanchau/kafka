@@ -24,7 +24,7 @@ This repository demonstrates a simple Kafka setup using Node.js, featuring a pro
 ## Usage
 
 ### Start Kafka Broker
-Ensure your Kafka broker is running on `localhost:9092`.
+Ensure your Kafka broker is running on `localhost:9092` using `docker-compose up -d`.
 
 ### Run the Producer
 Edit `publisher.js` to set your topic name (default: `'topic'`). Then run:
@@ -39,7 +39,7 @@ node consumer.js
 ```
 
 ## Dependencies
-- [node-rdkafka](https://www.npmjs.com/package/node-rdkafka)
+- [node-rdkafka](https://www.npmjs.com/package/node-rdkafka )
 
 ## File Overview
 - `publisher.js`: Kafka producer example
